@@ -1,4 +1,5 @@
 ﻿using Cups.Forms;
+using Cups.Forms.Etiqueta;
 using Cups.Forms.Validar;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,8 @@ namespace Cups
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormPrincipal());
-            Application.Run(new FormValidar());
+            //Application.Run(new FormValidar());
+            Application.Run(new FormEtiquetas());
         }
     }
 }
